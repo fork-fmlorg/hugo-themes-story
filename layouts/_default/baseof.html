@@ -138,7 +138,7 @@
 			</p>
 		</footer>
 		{{ end }}
-	{{ template "_internal/google_analytics_async.html" . }}
+	{{ template "_internal/google_analytics.html" . }}
 	{{ with .Site.Params.foot }}{{ range . }}
 	{{ . | safeHTML }}{{ end }}{{ end }}
 	</body>
